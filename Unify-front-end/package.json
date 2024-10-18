@@ -10,7 +10,7 @@
     "web": "expo start --web",
     "test": "jest --watchAll",
     "lint": "expo lint",
-    "build": "npx expo export:web",
+    "build": "expo export",
     "deploy": "npx docker-compose up --build" 
   },
   "jest": {
