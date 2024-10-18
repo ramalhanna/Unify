@@ -11,7 +11,7 @@
     "test": "jest --watchAll",
     "lint": "expo lint",
     "build": "expo export",
-    "deploy": "npx docker-compose up --build" 
+    "deploy": "expo publish" 
   },
   "jest": {
     "preset": "jest-expo"
