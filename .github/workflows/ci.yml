@@ -24,6 +24,9 @@ jobs:
         working-directory: Unify-front-end
         run: npm install
 
+      - name: Install EAS CLI
+        run: npm install -g eas-cli
+
       - name: Run tests
         # ignore test for now as it is not implemented yet
         working-directory: Unify-front-end
